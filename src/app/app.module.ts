@@ -10,20 +10,17 @@ import { AppComponent } from './app.component';
 
 
 @NgModule({
-	declarations: [
-		AppComponent
-	],
-	imports: [
-		BrowserModule,
-		BrowserAnimationsModule,
-		FormsModule,
-		HttpClientModule,
-		MatButtonModule,
-		MatCheckboxModule
-	],
-	providers: [
-		BookService
-	],
-	bootstrap: [AppComponent]
+  declarations: [AppComponent],
+  imports: [
+    BrowserModule,
+    BrowserAnimationsModule,
+    FormsModule,
+    HttpClientModule,
+    MatButtonModule,
+    MatCheckboxModule,
+    MatCardModule
+  ],
+  providers: [BookService],
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}
