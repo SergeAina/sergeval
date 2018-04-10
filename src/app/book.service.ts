@@ -15,7 +15,7 @@ export class BookService {
 
 	public initialize() {
 		this.httpClient.get(ENV.apiUrl).subscribe((data) => {
-			this.subject.next(data);
+		this.subject.next(data);
 		});
 	}
 
