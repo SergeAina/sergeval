@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "license": "MIT",
   "scripts": {
-    "build": "ng build --prod --env=test --base-href /eval/"
+    "build": "ng build --prod --env=test --base-href /eval/",
+    "build2": "ng build --prod --base-href=https://sergeaina.github.io/sergeval/",
+    "deploy": "ngh",
+    "publish": "npm run build && npm run deploy"
   },
   "private": true,
   "dependencies": {
